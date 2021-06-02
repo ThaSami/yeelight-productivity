@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Productivity watcher",
+	"description": "just to FOCUS",
+	"version": "0.1",
+	"author": "Sami Shabaneh",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "observing your current url and play with lights."
+	},
+	"permissions": ["tabs", "activeTab", "http://127.0.0.1:5000/*", "storage"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	}
+}
