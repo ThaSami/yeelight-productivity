@@ -6,5 +6,15 @@ Then enable developer mode on the lamp
 
 ``miiocli yeelight --ip <IP> --token <token> set_developer_mode 1``
 
+---
+#Extension
+
+head to 
+``chrome://extensions``
+click on (Load unpacked)
+then choose the extension dir. 
+
+make sure to update the IP inside the api.py
+
 ### TODO
 - Dockerize and parametrize the API
